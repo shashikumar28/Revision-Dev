@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(92, 188, 155);
+    text-shadow: inherit;
+    /* text-decoration: dotted; */
+    /* text-align: center; */
+    /* padding: 5%; */
+
+}
+p{
+    color: blueviolet;
+    text-decoration:  underline dashed;
+    /* text-decoration-style: dashed ; */
+}
