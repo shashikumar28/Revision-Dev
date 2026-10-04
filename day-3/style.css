@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px  20px;
+    border-radius: 40px;
+    background-color: aquamarine;
+}
+nav h1{
+    font-size: 30px;
+    position: relative;
+     left: -110px;    
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: solid white;
+        
+}
+.btn{
+height: 30px; 
+width: 70px;
+position: relative; 
+right: -100px;
+}
+button:hover{
+    background-color: olive;
+    color:white;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin: 20px auto;
+    text-align: flex-start; 
+    width: 80%; 
+    gap: 50px;
+    
+}
+ .main-left{
+   
+    line-height: 30px;
+    text-align: left;
+    color: aliceblue;
+    width: 80%;
+    margin: 60px auto;
+    
+}
+.main-left h2{
+    font-size: 60px;
+    margin-bottom: 45px;
+    
+}
+.parent{
+    width: 80% auto;
+    padding: 50px  20%;
+    color: aliceblue;
+    gap: 10%;
+    margin-top: 10%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    
+    
+}
+.parent h3{
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 3%;
+}
